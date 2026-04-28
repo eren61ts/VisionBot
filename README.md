@@ -24,12 +24,19 @@ Der ESP32 verbindet sich mit einem WLAN und startet einen Webserver.
 Diese werden vom ESP32 verarbeitet und in Motorbewegungen umgesetzt.
 Gleichzeitig wird das Kamerabild live an die Webseite übertragen.
 
-### Einrichtung
+## Voraussetzungen
+## andere versionen könnten auch klappen, aber dies sind die empfohlenen.
+- Arduino IDE 2.3.8
+- esp32 by Espressiv Systems Boardpaket Version 3.3.8 (Espressif Systems)
 
-1. Code auf den ESP32-CAM hochladen
-2. WLAN-Daten im Code eintragen
-3. Serielle Konsole öffnen und IP-Adresse ablesen
-4. IP-Adresse im Browser öffnen
+### Einrichtung
+1. Arduino IDE von der offiziellen Webseite herunterladen (achte auf die Version)
+ - https://www.arduino.cc/en/software/#ide
+2. Den Board esp32 by Esspressiv Systems herunterladen (ebenfalls auf Version achten)
+3. Code auf den ESP32-CAM hochladen  (upload)
+4. WLAN-Daten im Code eintragen 
+5. Serielle Konsole öffnen und IP-Adresse ablesen
+6. IP-Adresse im Browser öffnen  (Sicherstellen, dass du im selbem Netz bist!)
 
 ### Hinweise
 
